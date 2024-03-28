@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 99%;
+    height: 97%;
+    background-image: url("vegetables-set-left-black-slate.jpg");
+    background-size: cover;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    background: transparent;
+}
+
+.nav {
+    position: relative;
+    left: -180px;
+}
+
+a {
+    padding: 5px 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px black;
+}
+
+a:hover {
+    color: rgb(3, 3, 3);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.search {
+    font-size: 25px;
+}
+
+.search i {
+    padding: 5px 20px;
+}
+
+
+/************heading**************/
+
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+
+.right {
+    width: 440px;
+    height: 440px;
+    background-image: url("nd.jpg");
+    box-shadow: 10px 10px 10px 10px black;
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right::before {
+    width: 430px;
+    height: 430px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+    padding: 10px;
+}
+
+
+/**********left************/
+
+.left p:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left h1 {
+    font-size: 90px;
+    color: rgb(245, 241, 243);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left p:nth-child(3) {
+    color: rgb(240, 238, 238);
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(247, 240, 240);
+    margin: 20px 0px;
+}
+
+
+/***************bottom***************/
+
+.menu {
+    display: flex;
+    margin: 0px 100px;
+}
